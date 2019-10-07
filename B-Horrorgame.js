@@ -12,86 +12,86 @@ let availableQuesions = [];
 let questions = [
   {
   question: 
-  "The _______ method of an Array object adds and/or removes elements from an array.",
-    choice1: "Reverse",
-    choice2: "Splice",
-    choice3: "Shift",
-    choice4: "Slice",
-    answer: 2
+  "Who played Inspector Dan Clay in Plan 9 From Outer Space?",
+    choice1: "Tor Johnson",
+    choice2: "Béla Lagosi",
+    choice3: "Gregory Walcott",
+    choice4: "Lyle Talbot",
+    answer: 1
   },
   {
   question: 
-    "Which of the following can't be done with client-side JavaScript?",
-    choice1: "Validating a form",
-    choice2: "Sending a form's contents by email",
-    choice3: "Storing the form's contents to a database file on the server",
-    choice4: "None of the above",
+    "In Frankenstein Meets the Space Monster(1965), who is the main antagonist?",
+    choice1: "Nadir",
+    choice2: "Dr. Adam Steele",
+    choice3: "Princess Markuzan",
+    choice4: "Col. Frank Saunder",
     answer: 3
   },
   {
   question: 
-  "What are variables used for in JavaScript Programs?",
-    choice1: "Storing numbers, dates, or other values",
-    choice2: "Varying randomly",
-    choice3: "Causing high-school algebra flashbacks",
-    choice4: "Accept parameters and Return a value",
-    answer: 1
+  "In It Came from Outer Space (1953), where does a spaceship crash to start the movies plot?",
+    choice1: "Washington DC",
+    choice2: "The Arizona desert",
+    choice3: "The Pacific Nothwest",
+    choice4: "Hollywood CA",
+    answer: 2
   },
   {
     question:
-      "Which built-in method returns the string representation of the number's value?",
-    choice1: "toValue()",
-    choice2: "toNumber()",
-    choice3: "toString()",
-    choice4: "None of the above.",
-    answer: 3
-  },
-  {
-    question: "Which of the following code creates an object?",
-    choice1: "var cello = Object();",
-    choice2: "var lute = new Object();",
-    choice3: "var viola = new OBJECT();",
-    choice4: "var harpsichord = new Book();",
-    answer: 2
-  },
-  {
-    question: "Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?",
-    choice1: "charAt()",
-    choice2: "concat()",
-    choice3: "indexOf()",
-    choice4: "charCodeAt()",
+      "In Rocketship X-M (1950), who plays Col. Floyd Graham? ",
+    choice1: "Peter Graves",
+    choice2: "Hugh Beaumont",
+    choice3: "Dabbs Greer",
+    choice4: "Lloyd Bridges",
     answer: 4
   },
   {
-    question: "Which of the following function of Array object returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found?",
-    choice1: "indexOf()",
-    choice2: "lastIndexOf()",
-    choice3: "join()",
-    choice4: "map()",
-    answer: 2
-  },
-  {
-    question: "Choose the server-side JavaScript object?",
-    choice1: "FileUpLoad",
-    choice2: "ParseFloat",
-    choice3: "Function",
-    choice4: "File",
+    question: "What was the working title of Bride of Frankenstein?",
+    choice1: "Frankenstein Creates Woman",
+    choice2: " Frankenstein Returns",
+    choice3: "Frankenstein Makes a Mate",
+    choice4: "The Return of Frankenstein",
     answer: 4
   },
   {
-    question: "How do you find the number with the highest value of x and y",
-    choice1: "Math.max(x, y)",
-    choice2: "top(x, y)",
-    choice3: "Math.ceil(x, y)",
-    choice4: "ceil(x, y)",
+    question: "Which movie DID NOT cast Bela Lugosi?",
+    choice1: "Son of Dracula (1943)",
+    choice2: "The Corpse Vanishes (1942)",
+    choice3: "Glen or Glenda (1953)",
+    choice4: "Return of the Ape Man (1944)",
     answer: 1
   },
   {
-    question: "How would you write an IF statement in JavaScript?",
-    choice1: "if i = 5",
-    choice2: "if i = 5",
-    choice3: "if (i == 5)",
-    choice4: "if i = 5 then",
+    question: "In The Giant Spider Invasion (1975), where do the Giant Spiders invade?",
+    choice1: "New Mexico",
+    choice2: "Wisconsin",
+    choice3: "South Dakota",
+    choice4: "West Virginia",
+    answer: 2
+  },
+  {
+    question: "In Evil Brain from Outer Space (1965), who is the hero that must rescue Earth from the menace of the evil brain?",
+    choice1: "Ultraman",
+    choice2: "Vampirella",
+    choice3: "Octaman",
+    choice4: "Starman",
+    answer: 4
+  },
+  {
+    question: "In Attack of the 50 Foot Woman (1958), Allison Hayes plays the title character. What is her name?",
+    choice1: "Nancy Archer",
+    choice2: "Eileene Stevens",
+    choice3: "Yvette Von Loeb",
+    choice4: "Honey Parker",
+    answer: 1
+  },
+  {
+    question: "In Re-Animator (1985) How long does Dr. Carl Hill say a brain survive after the head is open?",
+    choice1: "1-3 minutes",
+    choice2: "4-8 minutes",
+    choice3: "6-12 minutes",
+    choice4: "It dies right away",
     answer: 3
   }
 ];

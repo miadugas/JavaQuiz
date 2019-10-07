@@ -12,86 +12,86 @@ let availableQuesions = [];
 let questions = [
   {
   question: 
-  "The _______ method of an Array object adds and/or removes elements from an array.",
-    choice1: "Reverse",
-    choice2: "Splice",
-    choice3: "Shift",
-    choice4: "Slice",
-    answer: 2
-  },
-  {
-  question: 
-    "Which of the following can't be done with client-side JavaScript?",
-    choice1: "Validating a form",
-    choice2: "Sending a form's contents by email",
-    choice3: "Storing the form's contents to a database file on the server",
-    choice4: "None of the above",
+  "What Universe Is The Main Rick From?",
+    choice1: "A-434",
+    choice2: "B-244",
+    choice3: "C-137",
+    choice4: "D-808",
     answer: 3
   },
   {
   question: 
-  "What are variables used for in JavaScript Programs?",
-    choice1: "Storing numbers, dates, or other values",
-    choice2: "Varying randomly",
-    choice3: "Causing high-school algebra flashbacks",
-    choice4: "Accept parameters and Return a value",
+    "What Does 'Wubba Lubba Dub Dub' Mean?",
+    choice1: "I your face, yo!",
+    choice2: "How does that profit me?",
+    choice3: "I am in great pain. Please help me.",
+    choice4: "Life is completely meaningless",
+    answer: 3
+  },
+  {
+  question: 
+  "Complete the Rick quote: 'School is not a place...'",
+    choice1: "...for smart people",
+    choice2: "...for geniuses",
+    choice3: "...for Ricks",
+    choice4: "...for learning",
     answer: 1
   },
   {
     question:
-      "Which built-in method returns the string representation of the number's value?",
-    choice1: "toValue()",
-    choice2: "toNumber()",
-    choice3: "toString()",
-    choice4: "None of the above.",
-    answer: 3
-  },
-  {
-    question: "Which of the following code creates an object?",
-    choice1: "var cello = Object();",
-    choice2: "var lute = new Object();",
-    choice3: "var viola = new OBJECT();",
-    choice4: "var harpsichord = new Book();",
-    answer: 2
-  },
-  {
-    question: "Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?",
-    choice1: "charAt()",
-    choice2: "concat()",
-    choice3: "indexOf()",
-    choice4: "charCodeAt()",
+      "What was Jerry’s apple-based ad slogan?",
+    choice1: "Where are the apples?",
+    choice2: "Apples: they're great",
+    choice3: "Got Apples?",
+    choice4: "Hungry for apples?",
     answer: 4
   },
   {
-    question: "Which of the following function of Array object returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found?",
-    choice1: "indexOf()",
-    choice2: "lastIndexOf()",
-    choice3: "join()",
-    choice4: "map()",
-    answer: 2
-  },
-  {
-    question: "Choose the server-side JavaScript object?",
-    choice1: "FileUpLoad",
-    choice2: "ParseFloat",
-    choice3: "Function",
-    choice4: "File",
+    question: "Which of these was a ride at Anatomy Park?",
+    choice1: "Spleen Mountain",
+    choice2: "Kidney Safari",
+    choice3: "The Tower of Tibia",
+    choice4: "Pirates of the Pancreas",
     answer: 4
   },
   {
-    question: "How do you find the number with the highest value of x and y",
-    choice1: "Math.max(x, y)",
-    choice2: "top(x, y)",
-    choice3: "Math.ceil(x, y)",
-    choice4: "ceil(x, y)",
+    question: "What does the wind whisper to Jerry?",
+    choice1: "Loser",
+    choice2: "Jerk",
+    choice3: "A$$hole",
+    choice4: "Pathetic",
     answer: 1
   },
   {
-    question: "How would you write an IF statement in JavaScript?",
-    choice1: "if i = 5",
-    choice2: "if i = 5",
-    choice3: "if (i == 5)",
-    choice4: "if i = 5 then",
+    question: "Which undercover agent did Birdperson marry?",
+    choice1: "Becky",
+    choice2: "Tammy",
+    choice3: "Sarah",
+    choice4: "Karen",
+    answer: 2
+  },
+  {
+    question: "How old is Morty?",
+    choice1: "12",
+    choice2: "18",
+    choice3: "16",
+    choice4: "14",
+    answer: 4
+  },
+  {
+    question: "On what matriarchal planet do people live with arms on their heads?",
+    choice1: "Gazorpazorp",
+    choice2: "Birdworld",
+    choice3: "YNebulon",
+    choice4: "The Citadel",
+    answer: 1
+  },
+  {
+    question: "What did Rick’s love potion turn Earth’s people into?",
+    choice1: "Cravens",
+    choice2: "Carpenters",
+    choice3: "Cronenbergs",
+    choice4: "Hitchcocks",
     answer: 3
   }
 ];

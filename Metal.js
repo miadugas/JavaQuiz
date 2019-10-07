@@ -12,86 +12,87 @@ let availableQuesions = [];
 let questions = [
   {
   question: 
-  "The _______ method of an Array object adds and/or removes elements from an array.",
-    choice1: "Reverse",
-    choice2: "Splice",
-    choice3: "Shift",
-    choice4: "Slice",
-    answer: 2
-  },
-  {
-  question: 
-    "Which of the following can't be done with client-side JavaScript?",
-    choice1: "Validating a form",
-    choice2: "Sending a form's contents by email",
-    choice3: "Storing the form's contents to a database file on the server",
-    choice4: "None of the above",
+  "Black Sabbath's original band name was?",
+    choice1: "Air",
+    choice2: "Fire",
+    choice3: "Earth",
+    choice4: "Wind",
     answer: 3
   },
   {
   question: 
-  "What are variables used for in JavaScript Programs?",
-    choice1: "Storing numbers, dates, or other values",
-    choice2: "Varying randomly",
-    choice3: "Causing high-school algebra flashbacks",
-    choice4: "Accept parameters and Return a value",
-    answer: 1
+    "What was the band name before Lemmy changed it to Motörhead?",
+    choice1: "The Pink Fairies",
+    choice2: "Bastard",
+    choice3: "Escalator",
+    choice4: "Brütal Legend",
+    answer: 2
+  },
+  {
+  question: 
+  "What song did Megadeth perform at a concert in Northern Ireland that famously started a riot??",
+    choice1: "Sympathy for the Devil",
+    choice2: "Peace Sells (But Who's Buying)",
+    choice3: "I Wanna Be Sedated",
+    choice4: "Anarchy in Ireland",
+    answer: 4
   },
   {
     question:
-      "Which built-in method returns the string representation of the number's value?",
-    choice1: "toValue()",
-    choice2: "toNumber()",
-    choice3: "toString()",
-    choice4: "None of the above.",
-    answer: 3
-  },
-  {
-    question: "Which of the following code creates an object?",
-    choice1: "var cello = Object();",
-    choice2: "var lute = new Object();",
-    choice3: "var viola = new OBJECT();",
-    choice4: "var harpsichord = new Book();",
-    answer: 2
-  },
-  {
-    question: "Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?",
-    choice1: "charAt()",
-    choice2: "concat()",
-    choice3: "indexOf()",
-    choice4: "charCodeAt()",
-    answer: 4
-  },
-  {
-    question: "Which of the following function of Array object returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found?",
-    choice1: "indexOf()",
-    choice2: "lastIndexOf()",
-    choice3: "join()",
-    choice4: "map()",
-    answer: 2
-  },
-  {
-    question: "Choose the server-side JavaScript object?",
-    choice1: "FileUpLoad",
-    choice2: "ParseFloat",
-    choice3: "Function",
-    choice4: "File",
-    answer: 4
-  },
-  {
-    question: "How do you find the number with the highest value of x and y",
-    choice1: "Math.max(x, y)",
-    choice2: "top(x, y)",
-    choice3: "Math.ceil(x, y)",
-    choice4: "ceil(x, y)",
+      "Which Metallica album was the last to feature a writing credit to Megadeth frontman Dave Mustaine?",
+    choice1: "Ride the Lightning",
+    choice2: "Megaforce (Demo)",
+    choice3: "Kill Em' All",
+    choice4: "No Life til' Leather (Demo)",
     answer: 1
   },
   {
-    question: "How would you write an IF statement in JavaScript?",
-    choice1: "if i = 5",
-    choice2: "if i = 5",
-    choice3: "if (i == 5)",
-    choice4: "if i = 5 then",
+    question: 
+    "'Angels fighting aimlessly still dying by the sword' - In what Slayer song can these words be found?",
+    choice1: "Angel Of Death",
+    choice2: "War Ensemble",
+    choice3: "Hell Awaits",
+    choice4: "Die By The Sword",
+    answer: 3
+  },
+  {
+    question: "Overkill, Anthrax and Nuclear Assault are bands which are part of what area's thrash scene?",
+    choice1: "New York City",
+    choice2: "The Bay Area",
+    choice3: "Texas",
+    choice4: "Germany",
+    answer: 1
+  },
+  {
+    question: "Venom guitarist Tony Dolan was previously from which of these bands?",
+    choice1: "Angel Witch",
+    choice2: "Atomkraft",
+    choice3: "Anvil",
+    choice4: "Razor",
+    answer: 2
+  },
+  {
+    question: "Which thrash band played 'spandex metal' music before they changed their style to thrash?",
+    choice1: "Anthrax",
+    choice2: "Lamb of God",
+    choice3: "Slayer",
+    choice4: "Pantera",
+    answer: 4
+  },
+  {
+    question: "Sepultura, originally from Brazil, is translated into 'grave' from which language?",
+    choice1: "Portuguese",
+    choice2: "Swedish",
+    choice3: "Dutch",
+    choice4: "Italian",
+    answer: 1
+  },
+  {
+    question: "Who was the vocalist on Iron Maiden's first two albums?",
+    choice1: "Bruce Dickinson",
+    choice2: "Steve Harris",
+    choice3: "Paul Di'Anno",
+    choice4: "Rob Halford",
     answer: 3
   }
 ];
