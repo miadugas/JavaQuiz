@@ -21,6 +21,32 @@ body {
   font-size: 62.5%;
 }
 
+/* header */
+.header {
+  padding: 10px 16px;
+  background: black;
+}
+
+/* Page content padding*/
+.content {
+  padding: 10px;
+}
+
+/* sticky class added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Added some top padding to the page content to prevent sudden quick 
+movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
 .greeting {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -188,7 +214,10 @@ input::placeholder {
   background-color: maroon;
 }
 
-/* HUD */
+
+
+
+/* Heads up */
 
 #hud {
   display: flex;
@@ -255,6 +284,8 @@ input::placeholder {
 .high-score:hover {
   transform: scale(1.025);
 }
+
+
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
