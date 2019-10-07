@@ -83,7 +83,7 @@ let questions = [
     question: "On what matriarchal planet do people live with arms on their heads?",
     choice1: "Gazorpazorp",
     choice2: "Birdworld",
-    choice3: "YNebulon",
+    choice3: "Nebulon",
     choice4: "The Citadel",
     answer: 1
   },
