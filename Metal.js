@@ -98,9 +98,10 @@ let questions = [
   }
 ];
 
+
 // Not really happy with my timer, 
 //its functional but not exactly what I would like
-var timer = 80;
+timer = 80;
 
 //Time to make the constants, set max questions & bonus for getting question correct
 const CORRECT_BONUS = 10;
@@ -169,17 +170,30 @@ incrementScore = num => {
 //timer function
 function secondsCounter () {
 timer = timer - 1;
-if (timer < 140) {
+if (timer < 80) {
   count.innerHTML = timer;
 } 
 
+else {
+  window.clearInterval(update);
+  timer = "-";
+  message001.innerHTML = "End of Quiz";
+}
+
 if (timer < 1) {
   windown.clearInterval(update);
+  message001.innerHTML = "Time's up";
 
 }
 }
+
+
+
 
 update = setInterval("secondsCounter()", 1000);
+
+
+
 
 
 
