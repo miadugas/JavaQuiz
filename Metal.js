@@ -177,12 +177,14 @@ if (timer < 80) {
 else {
   window.clearInterval(update);
   timer = "-";
-  message001.innerHTML = "End of Quiz";
+  window.location.href = "HoH.html";
+  
 }
 
 if (timer < 1) {
-  windown.clearInterval(update);
-  message001.innerHTML = "Time's up";
+  window.clearInterval(update);
+  window.location.href = "HoH.html";
+  
 
 }
 }
