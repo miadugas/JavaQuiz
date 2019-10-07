@@ -24,7 +24,7 @@ body {
 
 .greeting {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10x;
   font-size: large;
   color: white;
 }
@@ -69,6 +69,7 @@ h3 {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  margin-top: 20px;
 }
 
 /* centers any child of my contaner */
@@ -79,6 +80,7 @@ h3 {
 .flex-column {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .flex-center {
