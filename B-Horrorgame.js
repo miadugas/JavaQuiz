@@ -1,3 +1,4 @@
+// select all my elements
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
@@ -8,7 +9,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-
+// create my questions
 let questions = [
   {
   question: 
@@ -96,10 +97,11 @@ let questions = [
   }
 ];
 
-//Timer
+// Not really happy with my timer, 
+//its functional but not exactly what I would like
 var timer = 80;
 
-//CONSTANTS
+//Time to make the constants, set max questions & bonus for getting question correct
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
@@ -109,7 +111,7 @@ startGame = () => {
   availableQuesions = [...questions];
   getNewQuestion();
 };
-
+// grab some questions based on whats left
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
@@ -133,7 +135,7 @@ getNewQuestion = () => {
   availableQuesions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
-
+// validate the answers
 choices.forEach(choice => {
   choice.addEventListener("click", e => {
     if (!acceptingAnswers) return;
@@ -150,20 +152,20 @@ choices.forEach(choice => {
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
-
+//timeout
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
       getNewQuestion();
     }, 1000);
   });
 });
-
+//keep score 
 incrementScore = num => {
   score += num;
   scoreText.innerText = score;
 };
 
-//timer
+//timer function
 function secondsCounter () {
 timer = timer - 1;
 if (timer < 140) {

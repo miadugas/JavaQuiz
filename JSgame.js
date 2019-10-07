@@ -102,7 +102,7 @@ let questions = [
 //its functional but not exactly what I would like
 var timer = 80;
 
-//Time to make the constants
+//Time to make the constants, set max questions & bonus for getting question correct
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
